@@ -1,6 +1,6 @@
 # Soundpeats Mini Pro HS Controller
 
-An open-source Android application for connecting and controlling Soundpeats Mini Pro HS earbuds. Built with Kotlin and Jetpack Compose, this app communicates directly via Bluetooth SPP (Serial Port Profile) to provide features beyond the stock application, including a fully customizable 7-band Parametric EQ (PEQ) for the WuQi WQ7033 chipset.
+An open-source Android application for connecting and controlling Soundpeats Mini Pro HS earbuds. Built with Kotlin and Jetpack Compose, this app communicates directly via Bluetooth SPP (Serial Port Profile).
 
 ## ✨ Features
 
@@ -15,6 +15,14 @@ An open-source Android application for connecting and controlling Soundpeats Min
   * Game Mode (Low Latency)
   * Touch Controls (Enable/Disable)
 * **Modern UI:** Built entirely with Jetpack Compose featuring a sleek, Material 3-inspired design.
+
+## 💡 Why This Project?
+
+This application was born out of frustration with the official Soundpeats app. Most users just want to adjust their hardware settings without jumping through hoops.
+
+* **No Accounts Required:** The official app requires account creation and cloud login just to switch basic modes—a requirement that makes little sense for local hardware control.
+* **Privacy-First:** Constant data syncing for a pair of earbuds is an unnecessary attack on user privacy. This app requires zero accounts, zero internet access, and collects zero data.
+* **Direct Control:** It communicates directly with your device, the way Bluetooth hardware was meant to be used.
 
 ## 🛠️ Technical Details
 
@@ -48,8 +56,9 @@ The app requires the following permissions to discover, connect, and communicate
 
 ## ⚠️ Disclaimer
 
-This is an unofficial, open-source application and is not affiliated with, maintained, authorized, endorsed, or sponsored by Soundpeats. It uses reverse-engineered Bluetooth commands specific to the WuQi chipset. Use it at your own risk. Incorrect hex packet sequences (especially related to PEQ) can theoretically cause temporary earbud reboots.
+This is an unofficial, open-source application and is not affiliated with, maintained, authorized, endorsed, or sponsored by Soundpeats. It uses reverse-engineered Bluetooth commands specific to the WuQi WQ7033 chipset. Use at your own risk.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! If you have different Soundpeats models (e.g., Air3, Engine4) and want to help expand compatibility, please feel free to submit a pull request with the mapped hex commands for those devices.
+Contributions, issues, and feature requests are welcome! If you have different Soundpeats models (e.g., Air3, Engine4) and want to help expand compatibility, please feel free to submit a pull request or open an issue.
+
