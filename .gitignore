@@ -1,25 +1,29 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle & Android build files
+.gradle/
+/build/
+/app/build/
+*.class
+*.apk
+*.aar
+*.aab
+*.dex
 local.properties
-app-debug.apk
+.externalNativeBuild/
+.cxx/
+/captures/
+
+# IntelliJ / Android Studio IDE settings
+.idea/
+*.iml
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+venv/
+.venv/
+env/
+.env
 
-app/build/
-wrapper/dists/
-
+# System / OS files
+.DS_Store
